@@ -39,7 +39,7 @@ env:
   BUILD_USER: Mapdio
   GITHUB_USER_NAME: mapdio
   GITHUB_USER_EMAIL: ${{ secrets.EMAIL }}
-  GITHUB: github.com/mapdio/R7800-LEAN.git
+  GITHUB: github.com/mapdio/R7800-LEAN-LEDE-NSS.git
   
 jobs:
   build:
@@ -135,14 +135,14 @@ jobs:
           git config user.name $GITHUB_USER_NAME
           git config user.email $GITHUB_USER_EMAIL
           git add .
-          git commit -m "Update OpenWrt_"$BRANCH
-          git push --force --quiet https://${{ secrets.RELEASE_TOKEN }}@$GITHUB HEAD:OpenWrt-$BRANCH
+          git commit -m "Update Lede_"$BRANCH
+          git push --force --quiet https://${{ secrets.RELEASE_TOKEN }}@$GITHUB HEAD:LEDE-$BRANCH
     
     - name: Upload bin directory
       uses: actions/upload-artifact@main
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
-        name: OpenWrt_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: LEDE_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: openwrt/bin
 
     - name: Organize files
@@ -152,8 +152,8 @@ jobs:
         cd openwrt/bin/targets/*/*
         rm -rf packages
         rm -rf *uImage
-        mv openwrt-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin openwrt-ipq806x-generic-netgear_r7800-squashfs-sysupgrade${{ env.FILE_DATE }}.bin
-        mv openwrt-ipq806x-generic-netgear_r7800-squashfs-factory.img openwrt-ipq806x-generic-netgear_r7800-squashfsfactory${{ env.FILE_DATE }}.img
+        mv openwrt-ipq806x-generic-netgear_r7800-squashfs-sysupgrade.bin lede-ipq806x-generic-netgear_r7800-squashfs-sysupgrade${{ env.FILE_DATE }}.bin
+        mv openwrt-ipq806x-generic-netgear_r7800-squashfs-factory.img lede-ipq806x-generic-netgear_r7800-squashfsfactory${{ env.FILE_DATE }}.img
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "::set-output name=status::success"
 
@@ -161,7 +161,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: Lede_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
 
     - name: Upload firmware to cowtransfer
@@ -205,8 +205,6 @@ jobs:
             -- Build by ${{ env.BUILD_USER }} @ with Github Action on ${{ env.RELEASE_TAG }}
             🚀 Auto build | 自动编译    
             当前使用版本:（编译前的最后一次LEAN-LEDE源码更新记录）   
-            混合https://github.com/coolsnowwolf/lede 的Packages编译
-            集成 https://github.com/kenzok8/openwrt-packages 插件包
             ${{ env.useVersionInfo }}
             ${{ github.event.commits[0].message }}
         files: ${{ env.FIRMWARE }}/*
