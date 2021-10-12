@@ -36,10 +36,10 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  BUILD_USER: Mapdio
-  GITHUB_USER_NAME: mapdio
+  BUILD_USER: CodeEagle
+  GITHUB_USER_NAME: CodeEagle
   GITHUB_USER_EMAIL: ${{ secrets.EMAIL }}
-  GITHUB: github.com/mapdio/R7800-LEAN-LEDE-NSS.git
+  GITHUB: github.com/CodeEagle/R7800-LEAN-LEDE-NSS.git
   
 jobs:
   build:
