@@ -10,8 +10,8 @@ uci set system.@system[0].zonename=Asia/Shanghai
 uci commit system
 
 # 默认开启解锁网易云灰色歌曲
-uci set unblockmusic.@unblockmusic[0].enabled=1
-uci commit unblockmusic
+# uci set unblockmusic.@unblockmusic[0].enabled=1
+# uci commit unblockmusic
 
 # 设置默认管理IP地址
 uci set network.lan.ipaddr='192.168.10.1'
