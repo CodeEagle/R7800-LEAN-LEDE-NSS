@@ -1,0 +1,159 @@
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10757
+Filename: dns2socks_2.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11543
+SHA256sum: 49df8f93ebe9bcfd289f8ea5e64ba5e6502044364a2a2fa8f0ed076edb07accd
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.2-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9912
+Filename: dns2tcp_1.1.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10694
+SHA256sum: 2d20b36329525e141fe70720f407fcc9f7e2c4610f83de8f096bb8a0d13f109c
+Description:  utility to convert dns query from udp to tcp
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+License: MIT
+Section: lang
+Architecture: all
+Installed-Size: 4529
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5318
+SHA256sum: b34b9d062c321096ceecdfeb3aba2141a99a7b2326b02d3fac9545edb4d54812
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-ssr-plus
+Version: 188-8
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, libustream-openssl20201210, curl, xray-core, mosdns, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server
+Section: luci
+Architecture: all
+Installed-Size: 279608
+Filename: luci-app-ssr-plus_188-8_all.ipk
+Size: 279790
+SHA256sum: c9e3729fa0fc53c2a6297a8a9e60032faedce7f678739486efb6c6a47b04f5bb
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 188-8
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 9092
+Filename: luci-i18n-ssr-plus-zh-cn_188-8_all.ipk
+Size: 9907
+SHA256sum: d1a847016402c009a5c5de7304a35588c69b44b220b4f6e23ce08d3c9a231373
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: microsocks
+Version: 1.0.4-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5231
+Filename: microsocks_1.0.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6026
+SHA256sum: 46ae0d6190683fc051e46e52b97b32557bcf71755ae3b380d159d5b41c536a6d
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2256
+Filename: shadowsocksr-libev-ssr-check_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3026
+SHA256sum: 4b649ff250b26cbbc1dacdd987554399d58372528f8aae6b7518383511e3062c
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 59371
+Filename: shadowsocksr-libev-ssr-local_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 60136
+SHA256sum: b49833b4198655e548d36a42f3cafb29e2428ce5be22df358420fd9a42459f59
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53851
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54570
+SHA256sum: 6e202d21d8c23a541efd8b58065b011d5c6bd119254404229b341a2af08cb41f
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 63081
+Filename: shadowsocksr-libev-ssr-server_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 63815
+SHA256sum: 49a55456c842ef460cb9f894490742de1bb0ba4597629fe78e8e975c8b8fee0b
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 27244
+Filename: simple-obfs-client_0.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 28119
+SHA256sum: c4e37ad3b8e274d50a03930d10060d17401d4a2b7074c68d039fea97fbe85814
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3358
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4055
+SHA256sum: 9e49f769bcfb445824289807fb6c852304af1cb7a645ef2add37ef173030e315
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.8.24-1
+Depends: libc, ca-bundle
+License: MPL-2.0
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10032835
+Filename: xray-core_1.8.24-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10015105
+SHA256sum: ffc3220a2251efe424c8c548f016aa71403f6e51ca3c8650ddf087dd9fc87c3b
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+

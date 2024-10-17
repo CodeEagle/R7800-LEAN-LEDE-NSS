@@ -1,0 +1,11 @@
+Package: luci-app-openclash
+Version: 0.46.033-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Section: opt
+Architecture: all
+Installed-Size: 6161856
+Filename: luci-app-openclash_0.46.033-beta_all.ipk
+Size: 6138728
+SHA256sum: 0918be43ecae73c4faa2a792269edfb4e9ef5c6941cb31df721ca64a9f0affc3
+Description:  A LuCI support for clash
+

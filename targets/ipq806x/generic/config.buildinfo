@@ -1,0 +1,138 @@
+CONFIG_TARGET_ipq806x=y
+CONFIG_TARGET_ipq806x_generic=y
+CONFIG_TARGET_ipq806x_generic_DEVICE_netgear_r7800=y
+CONFIG_ARIA2_BITTORRENT=y
+CONFIG_ARIA2_NOXML=y
+CONFIG_ARIA2_OPENSSL=y
+CONFIG_ARIA2_WEBSOCKET=y
+CONFIG_PACKAGE_6in4=y
+CONFIG_PACKAGE_6rd=y
+CONFIG_PACKAGE_6to4=y
+CONFIG_PACKAGE_NTFS-3G_HAS_PROBE=y
+CONFIG_PACKAGE_adbyby=y
+CONFIG_PACKAGE_aria2=y
+CONFIG_PACKAGE_ariang=y
+# CONFIG_PACKAGE_autosamba is not set
+CONFIG_PACKAGE_bash=y
+CONFIG_PACKAGE_coreutils-nohup=y
+# CONFIG_PACKAGE_etherwake is not set
+CONFIG_PACKAGE_hd-idle=y
+CONFIG_PACKAGE_kcptun-client=y
+CONFIG_PACKAGE_kcptun-config=y
+CONFIG_PACKAGE_kmod-fuse=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+CONFIG_PACKAGE_kmod-iptunnel4=y
+# CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
+CONFIG_PACKAGE_kmod-sit=y
+CONFIG_PACKAGE_kmod-usb-ohci-pci=y
+CONFIG_PACKAGE_kmod-usb2-pci=y
+CONFIG_PACKAGE_libbz2=y
+CONFIG_PACKAGE_libcap-bin=y
+CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
+CONFIG_PACKAGE_libexif=y
+CONFIG_PACKAGE_libffmpeg-audio-dec=y
+CONFIG_PACKAGE_libflac=y
+CONFIG_PACKAGE_libid3tag=y
+CONFIG_PACKAGE_libjpeg-turbo=y
+CONFIG_PACKAGE_libogg=y
+CONFIG_PACKAGE_libruby=y
+CONFIG_PACKAGE_libsqlite3=y
+CONFIG_PACKAGE_libstdcpp=y
+CONFIG_PACKAGE_libvorbis=y
+CONFIG_PACKAGE_libyaml=y
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
+CONFIG_PACKAGE_luci-app-aria2=y
+CONFIG_PACKAGE_luci-app-hd-idle=y
+CONFIG_PACKAGE_luci-app-minidlna=y
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+CONFIG_PACKAGE_luci-app-openclash=y
+# CONFIG_PACKAGE_luci-app-wol is not set
+CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-aria2-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-minidlna-zh-cn=y
+CONFIG_PACKAGE_minidlna=y
+# CONFIG_PACKAGE_nlbwmon is not set
+CONFIG_PACKAGE_ntfs-3g=y
+CONFIG_PACKAGE_ruby=y
+CONFIG_PACKAGE_ruby-bigdecimal=y
+CONFIG_PACKAGE_ruby-date=y
+CONFIG_PACKAGE_ruby-digest=y
+CONFIG_PACKAGE_ruby-enc=y
+CONFIG_PACKAGE_ruby-forwardable=y
+CONFIG_PACKAGE_ruby-pstore=y
+CONFIG_PACKAGE_ruby-psych=y
+CONFIG_PACKAGE_ruby-stringio=y
+CONFIG_PACKAGE_ruby-strscan=y
+CONFIG_PACKAGE_ruby-yaml=y
+CONFIG_PACKAGE_unzip=y
+# CONFIG_PACKAGE_wol is not set
+CONFIG_SQLITE3_COLUMN_METADATA=y
+CONFIG_SQLITE3_DYNAMIC_EXTENSIONS=y
+CONFIG_SQLITE3_FTS3=y
+CONFIG_SQLITE3_FTS4=y
+CONFIG_SQLITE3_FTS5=y
+CONFIG_SQLITE3_JSON1=y
+CONFIG_SQLITE3_RTREE=y
+CONFIG_GNUTLS_ALPN=y
+CONFIG_GNUTLS_ANON=y
+# CONFIG_GNUTLS_CRYPTODEV is not set
+CONFIG_GNUTLS_DTLS_SRTP=y
+# CONFIG_GNUTLS_EXT_LIBTASN1 is not set
+CONFIG_GNUTLS_HEARTBEAT=y
+CONFIG_GNUTLS_OCSP=y
+# CONFIG_GNUTLS_PKCS11 is not set
+CONFIG_GNUTLS_PSK=y
+# CONFIG_GNUTLS_SRP is not set
+# CONFIG_GNUTLS_TPM is not set
+# CONFIG_LIBNETTLE_MINI is not set
+CONFIG_PACKAGE_attr=y
+CONFIG_PACKAGE_avahi-dbus-daemon=y
+CONFIG_PACKAGE_dbus=y
+CONFIG_PACKAGE_libattr=y
+CONFIG_PACKAGE_libavahi-client=y
+CONFIG_PACKAGE_libavahi-dbus-support=y
+CONFIG_PACKAGE_libdaemon=y
+CONFIG_PACKAGE_libdbus=y
+CONFIG_PACKAGE_libexpat=y
+CONFIG_PACKAGE_libgnutls=y
+CONFIG_PACKAGE_libnettle=y
+CONFIG_PACKAGE_libpopt=y
+CONFIG_PACKAGE_libtasn1=y
+CONFIG_PACKAGE_libtirpc=y
+CONFIG_PACKAGE_luci-app-samba4=y
+# CONFIG_PACKAGE_luci-i18n-samba4-ca is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-cs is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-de is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-el is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-en is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-es is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-fr is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-he is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-hu is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-it is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-ja is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-ms is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-no is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-pl is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-pt is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-pt-br is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-ro is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-ru is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-sk is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-sv is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-tr is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-uk is not set
+# CONFIG_PACKAGE_luci-i18n-samba4-vi is not set
+CONFIG_PACKAGE_luci-i18n-samba4-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-samba4-zh-tw is not set
+CONFIG_PACKAGE_samba4-libs=y
+CONFIG_PACKAGE_samba4-server=y
+CONFIG_PACKAGE_wsdd2=y
+# CONFIG_SAMBA4_SERVER_AD_DC is not set
+CONFIG_SAMBA4_SERVER_AVAHI=y
+CONFIG_SAMBA4_SERVER_NETBIOS=y
+CONFIG_SAMBA4_SERVER_VFS=y
+# CONFIG_SAMBA4_SERVER_VFSX is not set
+CONFIG_SAMBA4_SERVER_WSDD2=y
