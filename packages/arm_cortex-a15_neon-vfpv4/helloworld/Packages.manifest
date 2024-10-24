@@ -1,0 +1,128 @@
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+Source: feeds/helloworld/lua-neturl
+SourceName: lua-neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1728848726
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4529
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5318
+SHA256sum: b34b9d062c321096ceecdfeb3aba2141a99a7b2326b02d3fac9545edb4d54812
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-ssr-plus
+Version: 188
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, libustream-openssl20201210, curl, xray-core, mosdns, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, luci-lua-runtime
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1728848726
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 279608
+Filename: luci-app-ssr-plus_188_all.ipk
+Size: 279855
+SHA256sum: cce2e4751ef5f61baed29a2fa58cdf178f0975f7474b2a53530730ee083fe24d
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-24.287.71126-521e396
+Depends: libc, luci-app-ssr-plus
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1728848726
+Architecture: all
+Installed-Size: 7667
+Filename: luci-i18n-ssr-plus-zh-cn_git-24.287.71126-521e396_all.ipk
+Size: 8441
+SHA256sum: 84d67ed240bde427561ab5943e32f3af23fec4974b6d5070b8f39f3d20c8c50c
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/helloworld/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1728848726
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2256
+Filename: shadowsocksr-libev-ssr-check_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3026
+SHA256sum: 4b649ff250b26cbbc1dacdd987554399d58372528f8aae6b7518383511e3062c
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/helloworld/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1728848726
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 59371
+Filename: shadowsocksr-libev-ssr-local_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 60136
+SHA256sum: b49833b4198655e548d36a42f3cafb29e2428ce5be22df358420fd9a42459f59
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/helloworld/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1728848726
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53851
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54570
+SHA256sum: 6e202d21d8c23a541efd8b58065b011d5c6bd119254404229b341a2af08cb41f
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-11
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre2, libudns, zlib
+Source: feeds/helloworld/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1728848726
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 63081
+Filename: shadowsocksr-libev-ssr-server_2.5.6-11_arm_cortex-a15_neon-vfpv4.ipk
+Size: 63815
+SHA256sum: 49a55456c842ef460cb9f894490742de1bb0ba4597629fe78e8e975c8b8fee0b
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/helloworld/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1728848726
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 27244
+Filename: simple-obfs-client_0.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 28119
+SHA256sum: c4e37ad3b8e274d50a03930d10060d17401d4a2b7074c68d039fea97fbe85814
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
