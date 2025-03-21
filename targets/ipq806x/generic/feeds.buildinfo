@@ -1,0 +1,5 @@
+src-git packages https://github.com/coolsnowwolf/packages^9d51768
+src-git luci https://github.com/coolsnowwolf/luci.git^d8ad87b
+src-git routing https://github.com/coolsnowwolf/routing^3aefda7
+src-git telephony https://github.com/coolsnowwolf/telephony.git^04b4c8e
+src-git openclash https://github.com/vernesong/OpenClash^1496179
