@@ -18,4 +18,4 @@
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 
-# git clone https://github.com/douglarek/luci-app-homeproxy.git package/luci-app-homeproxy
+git clone https://github.com/douglarek/luci-app-homeproxy.git package/luci-app-homeproxy

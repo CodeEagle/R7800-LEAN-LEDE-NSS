@@ -15,14 +15,14 @@ on:
   workflow_dispatch:
     inputs:
       ssh:
-        description: 'SSH connection to Actions'
+        description: "SSH connection to Actions"
         required: false
-        default: 'false'
+        default: "false"
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
-  BRANCH: R7800-LEAN
+  REPO_URL: https://github.com/asvio/R7800-nss
+  REPO_BRANCH: r7800-23.05-nss
+  BRANCH: R7800-Openwrt
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
